@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iinkus90example.menghitung_basket.MainActivity1"
+    android:orientation="vertical">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1">
+
+
+              <TextView
+                  android:id="@+id/nama"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="14dp"
+                  android:background="@color/colorAccent"
+                  android:text="TIM A"
+                  android:textColor="@color/colorPrimary"
+                  android:textSize="20dp"
+                  android:layout_centerHorizontal="true"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/nama"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="2dp"
+                  android:background="@color/colorAccent"
+                  android:text="0"
+                  android:textSize="50dp"
+                  android:id="@+id/skorA"/>
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="1"
+                  android:layout_below="@id/skorA"
+                  android:textSize="15dp"
+                  android:id="@+id/satu"
+                  android:layout_centerHorizontal="true"
+                  android:onClick="one"/>
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="2"
+                  android:layout_below="@id/satu"
+                  android:textSize="15dp"
+                  android:id="@+id/tiga"
+                  android:layout_centerHorizontal="true"
+                  android:onClick="two"/>
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="3"
+                  android:layout_below="@id/tiga"
+                  android:textSize="15dp"
+                  android:layout_centerHorizontal="true"
+                  android:onClick="three"/>
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1">
+
+
+              <TextView
+                  android:id="@+id/nama"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="14dp"
+                  android:background="@color/colorAccent"
+                  android:text="TIM B"
+                  android:textColor="@color/colorPrimary"
+                  android:textSize="20dp"
+                  android:layout_centerHorizontal="true"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/nama"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="2dp"
+                  android:background="@color/colorAccent"
+                  android:text="0"
+                  android:textSize="50dp"
+                  android:id="@+id/skorB" />
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="1"
+                  android:layout_below="@id/skorB"
+                  android:textSize="15dp"
+                  android:id="@+id/satu"
+                  android:layout_centerHorizontal="true"
+                  android:onClick="atu"/>
+
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="2"
+                  android:layout_below="@id/satu"
+                  android:textSize="15dp"
+                  android:id="@+id/tiga"
+                  android:layout_centerHorizontal="true"
+                  android:onClick="duo"/>
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="3"
+                  android:layout_below="@id/tiga"
+                  android:textSize="15dp"
+                  android:layout_centerHorizontal="true"
+                  android:onClick="tigo"/>
+          </RelativeLayout>
+
+
+
+
+      </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:onClick="resut"
+        />
+</LinearLayout>
