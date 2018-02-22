@@ -9,7 +9,7 @@ public class MainActivity1 extends AppCompatActivity {
     TextView lagi, lagi2;
     int awal = 0;
     int awal2 = 0;
-
+    //ayobelajar
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
